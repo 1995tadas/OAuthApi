@@ -18,6 +18,7 @@ class CurrencyController extends Controller
         if ($currency_index !== false) {
             unset($symbols[$currency_index]);
         }
+
         $symbols = implode(',', $symbols);
         $query = 'https://api.exchangeratesapi.io/latest?base=' . $request->base . '&symbols=' . $symbols;
         $response = Http::get($query);

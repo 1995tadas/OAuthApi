@@ -116,7 +116,7 @@ GET
 
 ##### Data
 
-Access token(Authorization) in request header
+Access token (Authorization) in request header
 
 ###### Example
 ```
@@ -142,7 +142,7 @@ GET
 ```
 
 ##### Data
-Base as a parameter & access token(Authorization) in request header
+Base as a parameter & access token (Authorization) in request header
 
 ###### Example
 ```
